@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- Website by Dustin Nguyen / danguyen1215@gmail.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Boxicons CDN -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dustins.page</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div><a href="#" class="nav__logo">dustins.page</a></div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" onclick="snackbar()" class="nav__link">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!-- Home -->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi! <br />I'm
+            <spam class="home__title-color">Dustin Nguyen</spam>.<br />
+            This is my website.
+          </h1>
+          <a href="#" onclick="snackbar()" class="button">Read My Blog!</a>
+          <div id="snackbar">Under Construction!</div>
+        </div>
+        <div class="home__social">
+          <a href="mailto: danguyen1215@gmail.com" class="home__social-icon"
+            ><i class="bx bxs-envelope"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/dustin-nguyen-824316235/"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a
+            href="/img/danguyen-resume-04072022.pdf"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxs-spreadsheet"></i
+          ></a>
+        </div>
+        <div class="home__img">
+          <img src="img/profile.png" alt="" />
+        </div>
+      </section>
+      <!-- About -->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+        <div class="about__container bd-grid">
+          <div class="about__img"><img src="img/about.jpg" alt="" /></div>
+          <div>
+            <h2 class="about__subtitle">Who am I?</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+              maxime minima sapiente sit voluptates doloremque blanditiis,
+              totam, repudiandae incidunt omnis vitae dolores voluptatem aliquam
+              quisquam nesciunt voluptate pariatur inventore, est ipsam
+              repellendus saepe alias aut. Natus nobis voluptate exercitationem
+              dolorem.
+              <!-- I’m eager to learn new things that can
+              advance my career in the future. Willing to apply my foundational
+              skills from various ventures in order to build off of them and to
+              finish tasks efficiently and effectively. -->
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer__title">dustins.page</p>
+      <div class="footer__social">
+        <a href="" class="footer__icon"><i class="bx bxs-envelope"></i></a>
+        <a
+          href="https://www.linkedin.com/in/dustin-nguyen-824316235/"
+          target="_blank"
+          class="footer__icon"
+          ><i class="bx bxl-linkedin-square"></i
+        ></a>
+        <a
+          href="/img/danguyen-resume-04072022.pdf"
+          target="_blank"
+          class="footer__icon"
+          ><i class="bx bxs-spreadsheet"></i
+        ></a>
+      </div>
+      <p>&#169; 2022 All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scroll Reveal CDN -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
